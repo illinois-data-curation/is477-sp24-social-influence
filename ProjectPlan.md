@@ -15,11 +15,13 @@ We have integrated the specific roles and responsibilities of our team members w
 
 ### Social Media Sentiment Data (API Data)
 
-We will collect data on tweets before and after the release of a few products and examine the overall sentiment of the product. For example, we will select high-profile Disney movie releases, such as those from the Marvel or Star Wars franchises. These movies typically generate a lot of buzz on social media. Another Disney product we are going to look at is theme park openings or new attractions. The opening of new parks typically has a significant impact on Disney's stock price. To collect data for each chosen Disney product, we will identify the launch dates and compile a list of associated keywords and hashtags. Then, we will use the Twitter API to collect tweets that mention those identified keywords and hashtags. 
+We will collect data on tweets before and after the release of a few products and examine the overall sentiment of the product. For example, we will select high-profile Disney movie releases, such as those from the Marvel or Star Wars franchises. These movies typically generate a lot of buzz on social media. Another Disney product we are going to look at is theme park openings or new attractions. The opening of new parks typically has a significant impact on Disney's stock price. To collect data for each chosen Disney product, we will identify the launch dates and compile a list of associated keywords and hashtags. Then, we will use the Twitter API to collect tweets that mention those identified keywords and hashtags and run sentiment analysis to exmine audience perception. 
+With the data from twitter, users who want to use it would have to agree to certain conditions and there is even certain data, such as location, that cannot be used. The type of data produced is a JSON.
 
 ### Stock Market Data (Non-API Data from Nasdaq.com)
 
 This dataset will include historical stock price data from Nasdaq. This dataset is set to offer an extensive examination of how various companies' stocks have performed over the previous year. To further answer our research questions, Our approach involves dividing the stock data into segments before and after each event and looking for patterns. Specifically, we aim to investigate whether there is a noticeable increase in stock prices subsequent to positive social media buzz surrounding events like film releases. Those data will be critical in establishing a correlation with social media sentiment trends.
+With data from NASDAQ, users or anyone who visites the site are able to easily download the data from the cite as a csv.
 
 ## Jackson Stock Data Writeup
 
