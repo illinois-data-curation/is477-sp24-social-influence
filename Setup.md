@@ -8,6 +8,7 @@ This Python script uses the PRAW (Python Reddit API Wrapper) to scrape data from
 
 - Python 3.6 or higher
 - pip (Python package installer)
+- `credentials.json` file with Reddit API credentials. Ask Jackson or use your own.
 
 ### Create virtual environment
 Create a virtual environment named 'venv': `python3 -m venv venv`
