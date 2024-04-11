@@ -17,7 +17,6 @@ def to_unix_time(year, month, day):
 def sanitize_data(text):
     return text.replace('"', '""').replace('\n', ' ').replace('\r', ' ')
 
-
 # Load credentials
 with open('credentials.json', 'r') as file:
     credentials = json.load(file)
@@ -46,6 +45,7 @@ def search_disney_boycott(query, start_time):
                 submission.comments.replace_more(limit=None)
                 for comment in submission.comments.list():
                     comment_list.append([comment.id, submission.id, comment.body])
+        
     except Exception as e:
         print(f"An error occurred: {e}")
 
