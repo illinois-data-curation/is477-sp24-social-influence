@@ -1,0 +1,15 @@
+## Summary
+
+In the digital age, companies are more than just global entities reliant on the traditional success metrics. However, they are also increasingly subject to the court of public opinion on platforms such as Twitter, Facebook, and Reddit. Stocks can be seen as the "lifeblood" of a company as they can dictate what a company does, and they can be significantly influenced by social media, where a single viral tweet can either bolster or batter a company's stock value.
+
+In October of 2023, Israel declared war against Hamas because Hamas attacked Israel. This in turn led to Israel attacking those in Palestine. Many have died and are still dying on either side of the war. Protests around the world in support of Palestine and a ceasefire, as well as in support of Israel, are occurring. As of recently in the United States, many university students are holding their own protests, condemning the US and asking the government to help the Palestinians.
+
+In response, however, a form of online boycott has appeared, and many companies' stocks have been hurt because of their ties with Israel or because a major individual within the company holds beliefs that support Israel or have done something to support Israel. Against this backdrop, our research looks into how social media sentiments correlate with a company's stock market performance and identifies factors that can influence the relationship between how consumers view a company.
+
+The main question on our minds was how do social media sentiments correlate with the stock market performance of various companies. To solve this, we decided to use a social media platform, refine our search to posts and comments referring to boycotts from October onwards, and using python, we conducted sentiment analysis and compared those values to the company’s stocks from the same time and looked for any correlation.
+
+The company chosen for this project was Disney. Disney is a large entertainment company and with the rise of Disney+ during COVID, the company became even more popular. According to the Hollywood Reporter, Disney has donated money to help Israel, hence why many have called for a boycott against the company.
+
+Originally, the media chosen for this project was X (formally known as Twitter before Elon Musk bought the company). With X, trends can appear when certain “hashtags” are used and it is easier to access the API data and look into tweets specifically using the hashtag. However, another platform had to be chosen because X will only allow users to get the data if they pay cash. This led us to use Reddit instead. Reddit is a social media platform that is built like an open forum and they have less restrictions to get the API Data.
+
+After doing the intended analysis, we found only a handful of posts and comments from October 2023 onwards discussing the boycott of Disney. Based on the sentiment analysis, the texts were mostly either neutral or skewed negatively. Combining the stock data with the sentiment analysis, however, depicted no real correlation between the 2 due to bias from minimal data.
